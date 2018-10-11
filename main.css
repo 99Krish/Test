@@ -1,0 +1,93 @@
+
+  body
+  {
+	font-family: "Courier New", Courier, monospace;  
+  }
+ footer 
+	{
+      background-color: white;
+      color: black;
+      padding: 15px;
+	  margin-top:20px;
+	  letter-spacing: 5px;
+    }
+	
+	
+	@media screen and (min-width : 1200px)
+	{
+		 /* img
+		  {
+			width:370px;
+			height:250px;
+			margin:5px;
+			
+		
+		  }  */
+		  div
+		  {
+			font-size: 15px;
+			
+		
+		  }
+		
+	}
+	
+	@media screen and (min-width : 992px) and (max-width : 1200px)
+	{
+		  img
+		  {
+			width:320px;
+			height:200px;
+			margin:10px;
+		
+		  }
+		div
+		  {
+			font-size: 13px;
+			
+		
+		  }
+		
+	}
+	
+	@media screen and (min-width : 768px) and (max-width : 992px)
+	{
+		   img
+		  {
+			width:300px;
+			height:180px;
+			margin:10px;
+		
+		  }
+		div
+		  {
+			font-size: 12px;
+			
+			
+		  }
+		
+	}
+	
+	@media screen and (max-width : 768px)
+	{
+		   img
+		  {
+			width:200px;
+			height:180px;
+			margin:10px;
+		
+		  }
+		
+		div
+		  {
+			font-size: 12px;
+				
+			
+		  }
+	}
+	
+	
+	
+	
+	
+	
